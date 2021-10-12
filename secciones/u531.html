@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <title>RDD Unidad Temática V</title>
+
+        <!-- Estilos CSS -->
+        <link rel="stylesheet" href="../css/style.css" />
+
+    </head>
+
+    <body>
+
+        <!-- Global -->
+        <section id="global">
+
+            <!-- Header -->
+            <div id="header">
+                <img id="logo_ipn" src="../img/logo_ipn.png" />
+                <img id="logo_escom" src="../img/logo_escom.png" />
+            </div>
+
+            <!-- Contenido -->
+            <div id="contenido">
+
+                <!-- Secciones -->
+                <div id="secciones">
+                    <ul>
+                        <a href="../index.html"><li><img src="../img/home.png" /></li></a>
+                        <a href="#"><li class="actual">Contenidos</li></a>
+                        <a href="../materialApoyo.html"><li>Material de apoyo</li></a>
+                        <a href="../glosario.html"><li>Glosario</li></a>
+                        <a href="../fuentesConsulta.html"><li>Fuentes de consulta</li></a>
+                    </ul>
+                </div>
+
+                <div class="clearfix"></div>
+                
+                <!-- Temas -->
+                <div id="temas">
+                    <ul>
+                        <a href="../secciones/u51.html"><li>5.1 Los proyectos de inversión</li></a>
+                        <a href="../secciones/u52.html"><li>5.2 Proceso de preparación y evaluación de proyectos</li></a>
+                        <a href="../secciones/u53.html"><li>5.3 Métodos de evaluación financiera para proyectos de inversión</li></a>
+                        <a class="seleccionado" href="#"><li class="subtema">5.3.1 Método del período de recuperación de la inversión (PRI)</li></a>
+                        <a href="../secciones/u532.html"><li class="subtema">5.3.2 Método de rendimiento anual promedio (RAP)</li></a>
+                        <a href="../secciones/u533.html"><li class="subtema">5.3.3 Costo-beneficio</li></a>
+                        <a href="../secciones/u534.html"><li class="subtema">5.3.4 Valor presente neto (VPN)</li></a>
+                        <a href="../secciones/u535.html"><li class="subtema">5.3.5 Tasa interna de rendimiento (TIR)</li></a>
+                    </ul>
+                </div>
+
+                <!-- Texto -->
+                <div id="texto">
+                    <div id="informacion">
+                        <h1>5.3.1 Método del período de recuperación de la inversión (PRI)</h1>
+                        <p>Recuerda que este método nos permitirá determinar el tiempo en años y fracción de años, que se requiere para recuperar la inversión inicial de un proyecto.</p>
+                        <p>Ahora bien, procederemos a sumar los flujos de efectivo netos del proyecto hasta recuperar la inversión inicial.</p>
+                        <p>Para nuestro ejemplo, mostraremos la suma de los flujos netos de efectivo (FNE) en la siguiente tabla:</p>
+                        <table class="tabla" border="1">
+                            <tr>
+                                <th>Año</th>
+                                <th>Flujo neto de efectivo (FNE)</th>
+                                <th>Flujo neto de efectivo acumulado</th>
+                            </tr>
+                            <tr>
+                                <td class="conceptoTabla">1</td>
+                                <td class="textoCentrado">$ 2,500</td>
+                                <td class="textoCentrado">$ 2,500</td>
+                            </tr>
+                            <tr>
+                                <td class="conceptoTabla">2</td>
+                                <td class="textoCentrado">$ 3,200</td>
+                                <td class="textoCentrado">$ 5,700</td>
+                            </tr>
+                            <tr>
+                                <td class="conceptoTabla">3</td>
+                                <td class="textoCentrado">$ 4,100</td>
+                                <td class="textoCentrado">$ 9,800</td>
+                            </tr>
+                            <tr>
+                                <td class="conceptoTabla">4</td>
+                                <td class="textoCentrado">$ 5,500</td>
+                                <td class="textoCentrado">$15,300</td>
+                            </tr>
+                            <tr>
+                                <td class="conceptoTabla">5</td>
+                                <td class="textoCentrado">$ 5,500</td>
+                                <td class="textoCentrado">$20,800</td>
+                            </tr>
+                        </table>
+                        <p>Como podemos ver al final del año 3 la suma de los FNE del proyecto nos da un total de $9,800 pesos, esto nos indica que aún no se recupera la inversión inicial que es de $10,000 pesos por lo que nos haría falta un flujo de $200 pesos; y como puedes ver al final del año 4 la suma de los FNE nos da un total de $15,300 pesos y esta cantidad excede el monto de la inversión inicial. Por lo que podemos decir que la recuperación de la inversión ocurre después del año 3 y antes de que termine el año 4.</p>
+                        <p>Te preguntarás cómo saber con exactitud cuál es el período de tiempo que se requiere para recuperar la inversión inicial del proyecto. Ahora bien, para calcular la fracción de tiempo que se requiere para que podamos obtener un flujo de $200 y así recuperar la inversión inicial, lo haremos de la siguiente manera: dividiremos el monto faltante para recuperar la inversión que en nuestro ejemplo es de $200 entre el FNE del siguiente año y al resultado le sumaremos los 3 años;</p>
+                        <img class="centrado ecuacion" width="70%" src="../img/eq3.1.1.png" />
+                        <p>Entonces ahora calculemos el periodo de recuperación del proyecto:</p>
+                        <img class="centrado ecuacion" width="40%" src="../img/eq3.1.2.png" />
+                        <img class="centrado ecuacion" width="60%" src="../img/eq3.1.3.png" />
+                        <img class="centrado ecuacion" width="60%" src="../img/eq3.1.4.png" />
+                        <p>El periodo de recuperación de la inversión será en 3 años, 0 meses y 10 días.</p>
+                        <h3>Criterio de decisión:</h3>
+                        <p>Si el período de recuperación calculado es menor que el período de recuperación establecido por la empresa o el inversionista, el proyecto debe aceptarse; de lo contrario debe rechazarse.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Footer -->
+            <div id="footer">
+                Creative commons
+            </div>
+
+        </section>
+
+    </body>
+
+</html>

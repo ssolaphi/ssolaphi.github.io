@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <title>RDD Unidad Temática V</title>
+
+        <!-- Estilos CSS -->
+        <link rel="stylesheet" href="../css/style.css" />
+
+    </head>
+
+    <body>
+
+        <!-- Global -->
+        <section id="global">
+
+            <!-- Header -->
+            <div id="header">
+                <img id="logo_ipn" src="../img/logo_ipn.png" />
+                <img id="logo_escom" src="../img/logo_escom.png" />
+            </div>
+
+            <!-- Contenido -->
+            <div id="contenido">
+
+                <!-- Secciones -->
+                <div id="secciones">
+                    <ul>
+                        <a href="../index.html"><li><img src="../img/home.png" /></li></a>
+                        <a href="#"><li class="actual">Contenidos</li></a>
+                        <a href="../materialApoyo.html"><li>Material de apoyo</li></a>
+                        <a href="../glosario.html"><li>Glosario</li></a>
+                        <a href="../fuentesConsulta.html"><li>Fuentes de consulta</li></a>
+                    </ul>
+                </div>
+
+                <div class="clearfix"></div>
+                
+                <!-- Temas -->
+                <div id="temas">
+                    <ul>
+                        <a href="../secciones/u51.html"><li>5.1 Los proyectos de inversión</li></a>
+                        <a href="../secciones/u52.html"><li>5.2 Proceso de preparación y evaluación de proyectos</li></a>
+                        <a href="../secciones/u53.html"><li>5.3 Métodos de evaluación financiera para proyectos de inversión</li></a>
+                        <a href="../secciones/u531.html"><li class="subtema">5.3.1 Método del período de recuperación de la inversión (PRI)</li></a>
+                        <a href="../secciones/u532.html"><li class="subtema">5.3.2 Método de rendimiento anual promedio (RAP)</li></a>
+                        <a href="../secciones/u533.html"><li class="subtema">5.3.3 Costo-beneficio</li></a>
+                        <a href="../secciones/u534.html"><li class="subtema">5.3.4 Valor presente neto (VPN)</li></a>
+                        <a class="seleccionado" href="#"><li class="subtema">5.3.5 Tasa interna de rendimiento (TIR)</li></a>
+                    </ul>
+                </div>
+
+                <!-- Texto -->
+                <div id="texto">
+                    <div id="informacion">
+                        <h1>5.3.5 Tasa interna de rendimiento (TIR)</h1>
+                        <p>La TIR es la tasa de descuento que hace que el valor presente de los flujos de efectivo netos generados por un proyecto sea igual a la inversión inicial requerida; es decir, es la tasa que provoca que el VPN de un proyecto sea igual a cero.</p>
+                        <p>Su fórmula es:</p>
+                        <img class="centrado ecuacion" width="90%" src="../img/eq3.3.png" />
+                        <div class="definicionVariables">
+                            <p>Donde:</p>
+                            <ul>
+                                <li>TIR = Tasa de rendimiento</li>
+                                <li>VPN = Valor presente neto</li>
+                                <li>FNE = Flujo neto de efectivo</li>
+                                <li>I<sub>o</sub> = Inversión inicial requerida</li>
+                                <li>n = Número de periodos de vida del proyecto (tiempo de vida)</li>
+                            </ul>
+                        </div>
+                        <p>El valor que satisfaga la ecuación anterior será el que ocasione que la suma de los flujos netos de efectivo descontados sea igual a la inversión inicial requerida para realizar el proyecto. Cabe señalar la relación inversa que existe entre la TIR y el VPN: cuando se incrementa la TIR, disminuye el VPN, y cuando disminuye la TIR, se incrementa el VPN.</p>
+                        <p>No existe una forma directa de obtener el valor de la TIR, es necesario encontrarla mediante prueba y error. Sin embargo, en Excel tenemos la función financiera TIR que permite calcular el valor de manera automática</p>
+                        <p>Para calcula el valor de la TIR de nuestro ejemplo vamos primeramente a proponer un valor de 20%; con este valor nos concentraremos en la suma de los flujos netos descontados los cuales nos tienen que dar el valor de la inversión inicial</p>
+                        <img class="centrado ecuacion" width="90%" src="../img/eq3.5.1.png" />
+                        <img class="centrado ecuacion" width="90%" src="../img/eq3.5.2.png" />
+                        <p>Como podemos observar el valor que obtenemos de la suma de los flujos descontados es superior a la de la inversión inicial, por lo que ahora propondremos un valor mayor para la TIR; proponemos 25%</p>
+                        <img class="centrado ecuacion" width="90%" src="../img/eq3.5.3.png" />
+                        <img class="centrado ecuacion" width="90%" src="../img/eq3.5.4.png" />
+                        <img class="centrado ecuacion" width="90%" src="../img/eq3.5.5.png" />
+                        <p>Con el nuevo valor propuesto ahora la suma de los flujos netos descontados está por debajo del valor de la inversión inicial lo cual quiere decir que el valor de la TIR que buscando se encuentra entre 20% y 25% podríamos seguir proponiendo valores entre este rango hasta encontrar un valor que nos aproxime lo más que se pueda al valor de la inversión inicial, pero ya que tenemos un valor superior y uno inferior y estamos muy cerca de encontrarlo podemos interpolar.</p>
+                        <p>Para interpolar vamos a colocar  el valor que obtuvimos de la suma de los flujos descontados cuando propusimos la tasa del 20% en el primer renglón, columnas 1 y 2, el valor que andamos buscando que en este caso es de $11,340; posteriormente en el segundo renglón y solo en la columna 2 colocamos el valor de la inversión inicial y el valor que corresponde a la suma de los flujos netos descontados cuando se propuso la tasa del  25% se colocara en el tercer renglón y solamente en la primer columna. Una vez que colocamos los valores procedemos a restarlos, en cada columna, como se muestra a continuación:</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Footer -->
+            <div id="footer">
+                Creative commons
+            </div>
+
+        </section>
+
+    </body>
+
+</html>

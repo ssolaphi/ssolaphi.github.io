@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <title>RDD Unidad Temática V</title>
+
+        <!-- Estilos CSS -->
+        <link rel="stylesheet" href="../css/style.css" />
+
+    </head>
+
+    <body>
+
+        <!-- Global -->
+        <section id="global">
+
+            <!-- Header -->
+            <div id="header">
+                <img id="logo_ipn" src="../img/logo_ipn.png" />
+                <img id="logo_escom" src="../img/logo_escom.png" />
+            </div>
+
+            <!-- Contenido -->
+            <div id="contenido">
+
+                <!-- Secciones -->
+                <div id="secciones">
+                    <ul>
+                        <a href="../index.html"><li><img src="../img/home.png" /></li></a>
+                        <a href="#"><li class="actual">Contenidos</li></a>
+                        <a href="../materialApoyo.html"><li>Material de apoyo</li></a>
+                        <a href="../glosario.html"><li>Glosario</li></a>
+                        <a href="../fuentesConsulta.html"><li>Fuentes de consulta</li></a>
+                    </ul>
+                </div>
+
+                <div class="clearfix"></div>
+                
+                <!-- Temas -->
+                <div id="temas">
+                    <ul>
+                        <a href="../secciones/u51.html"><li>5.1 Los proyectos de inversión</li></a>
+                        <a href="../secciones/u52.html"><li>5.2 Proceso de preparación y evaluación de proyectos</li></a>
+                        <a href="../secciones/u53.html"><li>5.3 Métodos de evaluación financiera para proyectos de inversión</li></a>
+                        <a href="../secciones/u531.html"><li class="subtema">5.3.1 Método del período de recuperación de la inversión (PRI)</li></a>
+                        <a href="../secciones/u532.html"><li class="subtema">5.3.2 Método de rendimiento anual promedio (RAP)</li></a>
+                        <a class="seleccionado" href="#"><li class="subtema">5.3.3 Costo-beneficio</li></a>
+                        <a href="../secciones/u534.html"><li class="subtema">5.3.4 Valor presente neto (VPN)</li></a>
+                        <a href="../secciones/u535.html"><li class="subtema">5.3.5 Tasa interna de rendimiento (TIR)</li></a>
+                    </ul>
+                </div>
+
+                <!-- Texto -->
+                <div id="texto">
+                    <div id="informacion">
+                        <h1>5.3.3 Índice de rentabilidad (IR) o razón de beneficio/costo</h1>
+                        <p>Este método consiste en dividir la suma de los valores presentes de los flujos netos de un proyecto, descontados con la tasa de costo de capital K divididos entre la inversión inicial requerida, como se muestra a continuación:</p>
+                        <img class="centrado ecuacion" width="60%" src="../img/eq3.2.png" />
+                        <p> El IR lo podemos interpretar como el valor presente o la rentabilidad obtenida por cada unidad monetaria invertida en el proyecto. </p>
+                        <p>En la siguiente tabla te mostraremos los pasos para el cálculo del IR correspondiente a nuestro ejemplo:</p>
+                        <table class="tabla" border="1">
+                            <tr>
+                                <th>Año</th>
+                                <th>1</th>
+                                <th>2</th>
+                                <th>3</th>
+                                <th>4</th>
+                                <th>5</th>
+                            </tr>
+                            <tr>
+                                <td class="conceptoTabla">FNE (en pesos)</td>
+                                <td class="textoCentrado">$2,500</td>
+                                <td class="textoCentrado">$3,200</td>
+                                <td class="textoCentrado">$4,100</td>
+                                <td class="textoCentrado">$5,500</td>
+                                <td class="textoCentrado">$5,000</td>
+                            </tr>
+                            <tr>
+                                <td class="conceptoTabla">VP de los FNE</td>
+                                <td class="textoCentrado">$2,500/(1.18)<sup>1</sup> = $2,118.65</td>
+                                <td class="textoCentrado">$3,200/(1.18)<sup>2</sup> = $2,298.20</td>
+                                <td class="textoCentrado">$4,100/(1.18)<sup>3</sup> = $2,495.35</td>
+                                <td class="textoCentrado">$5,500/(1.18)<sup>4</sup> = $2,836.80</td>
+                                <td class="textoCentrado">$5,000/(1.18)<sup>5</sup> = $2,185.55</td>
+                            </tr>
+                            <tr>
+                                <td class="conceptoTabla">Suma del VP de los FNE</td>
+                                <td class="textoCentrado" colspan="5">$2,118.65 + $2,298.20 + $2,495.35 + $2,836.80 + $2,185.55 = <b>$11,934.55</b></td>
+                            </tr>
+                            <tr>
+                                <td class="conceptoTabla">Índice de rentabilidad</td>
+                                <td class="textoCentrado" colspan="5">IR = $11,934.55 / $10,000 = <b>1.20</b></td>
+                            </tr>
+                        </table>
+                        <p>Un índice de rentabilidad de 1.20 significa que cada unidad monetaria invertida en el proyecto genera un valor presente de $ 1.20 pesos para la empresa, o un valor presente neto de $ .20 pesos; (- $ 1 + $ 1.20 = $ .20)</p>
+                        <h3>Criterios de decisión:</h3>
+                        <p>El proyecto se debería aceptar ya que se obtuvo un IR &GreaterEqual; a 1 y esto quiere decir que los beneficios que genera el proyecto son superiores a su costo; por cada peso que se invierte en el proyecto se generan $ 0.20 pesos de rendimiento.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Footer -->
+            <div id="footer">
+                Creative commons
+            </div>
+
+        </section>
+
+    </body>
+
+</html>
