@@ -15,7 +15,7 @@ body {
 #header {
     width: 100%;
     box-sizing: border-box;
-    height: 100px;
+    height: 110px;
     min-height: 10%;
 }
 
@@ -26,9 +26,17 @@ body {
 
 #header #logo_ipn {
     float: left;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 #header #logo_escom {
+    float: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#header #tituloHeader {
     float: right;
     margin-right: 70px;
 }
@@ -278,6 +286,22 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     list-style: none;
+}
+
+#informacion ol {
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 1.5;
+}
+
+#informacion ol li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: lower-alpha;
 }
 
 #informacion .lista li {
