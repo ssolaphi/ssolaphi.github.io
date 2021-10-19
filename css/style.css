@@ -144,6 +144,10 @@ body {
     border-bottom-left-radius: 10px;
 }
 
+#temas .blue li {
+    background: #A7B6E8;
+}
+
 #temas a {
     text-decoration: none;
 }
