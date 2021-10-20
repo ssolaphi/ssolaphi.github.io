@@ -243,6 +243,23 @@ body {
     margin-right: auto;
 }
 
+#informacion #divBuscador {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#informacion input#buscador {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-size: 25px;
+    border-radius: 10px;
+    width: 100%;
+    padding-left: 10px;
+}
+
 #informacion .solito {
     margin-top: 150px;
     font-size: 100px;
