@@ -38,6 +38,7 @@ body {
 
 #header #tituloHeader {
     float: right;
+    width: 60%;
     margin-right: 70px;
 }
 
@@ -51,6 +52,26 @@ body {
 
 #contenido.noTabs {
     transform: translateX(-250px);
+}
+
+#leyenda {
+    position: absolute;
+    display: inline-block;
+    top: 150px;
+    left: 50px;
+    width: 25%;
+    font-family: 'News Cycle', sans-serif;
+    text-align: justify;
+}
+
+#leyenda.noTabs {
+    position: absolute;
+    display: inline-block;
+    top: 150px;
+    left: 50px;
+    width: 13%;
+    font-family: 'News Cycle', sans-serif;
+    text-align: justify;
 }
 
 #secciones {
