@@ -454,6 +454,13 @@ body {
     text-align: center;
 }
 
+#informacion .tabla .resta {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 #infoRecurso {
     margin-left: 80px;
     margin-right: 30px;
