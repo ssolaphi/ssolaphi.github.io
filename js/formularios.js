@@ -16,28 +16,28 @@ $(document).ready(function() {
                 <div class="pregunta">
                     <div class="cuerpo">
                         <p>¿Cuál es el periodo de recuperación de la inversión (PRI) del proyecto A?</p>
-                        <div class="centrarOpciones"><p><input type="number" id="e1p1" /> años</p></div>
+                        <p><input type="number" id="p1-1" /> años</p>
                     </div>
                     <div class="calificar">
-                        <img id="ce1p1" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
+                        <img id="cp1" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
                     </div>
                 </div>
                 <div class="pregunta">
                     <div class="cuerpo">
                         <p>¿Cuál es el periodo de recuperación de la inversión (PRI) del proyecto B?</p>
-                        <div class="centrarOpciones"><p><input type="number" id="e1p2-1" /> años &nbsp;&nbsp;&nbsp; <input type="number" id="e1p2-2" /> meses</p></div>
+                        <p><input type="number" id="p2-1" /> años &nbsp;&nbsp;&nbsp; <input type="number" id="p2-2" /> meses</p>
                     </div>
                     <div class="calificar">
-                        <img id="ce1p2" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
+                        <img id="cp2" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
                     </div>
                 </div>
                 <div class="pregunta">
                     <div class="cuerpo">
                         <p>Utilizando el método del PRI ¿Cuál proyecto es el más conveniente?</p>
-                        <div class="centrarOpciones"><p><input type="button" id="e1p3-1" value="Proyecto A" />&nbsp;&nbsp;&nbsp;<input type="button" id="e1p3-2" value="Proyecto B" /></p></div>
+                        <p><input type="button" id="p3-1" value="Proyecto A" />&nbsp;&nbsp;&nbsp;<input type="button" id="p3-2" value="Proyecto B" /></p>
                     </div>
                     <div class="calificar">
-                        <img id="ce1p3" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
+                        <img id="cp3" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
                     </div>
                 </div>
                 <h2>Ejercicio 2</h2>
@@ -86,28 +86,36 @@ $(document).ready(function() {
                 <div class="pregunta">
                     <div class="cuerpo">
                         <p>¿En qué tiempo se recupera la inversión de la máquina A?</p>
-                        <div class="centrarOpciones"><p><input type="number" id="e2p1-1" /> años &nbsp;&nbsp;&nbsp; <input type="number" id="e2p1-2" /> meses</p></div>
+                        <p><input type="number" id="p4-1" /> años &nbsp;&nbsp;&nbsp; <input type="number" id="p4-2" /> meses</p>
                     </div>
                     <div class="calificar">
-                        <img id="ce2p1" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
+                        <img id="cp4" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
                     </div>
                 </div>
                 <div class="pregunta">
                     <div class="cuerpo">
                         <p>¿En qué tiempo se recupera la inversión de la máquina B?</p>
-                        <div class="centrarOpciones"><p><input type="number" id="e2p2-1" /> años &nbsp;&nbsp;&nbsp; <input type="number" id="e2p2-2" /> meses &nbsp;&nbsp;&nbsp; <input type="number" id="e2p2-3" /> días</p></div>
+                        <p><input type="number" id="p5-1" /> años &nbsp;&nbsp;&nbsp; <input type="number" id="p5-2" /> meses &nbsp;&nbsp;&nbsp; <input type="number" id="p5-3" /> días</p>
                     </div>
                     <div class="calificar">
-                        <img id="ce2p2" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
+                        <img id="cp5" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
                     </div>
                 </div>
                 <div class="pregunta">
                     <div class="cuerpo">
                         <p>Con base en el método del PRI ¿qué máquina debe comprar Colors?</p>
-                        <div class="centrarOpciones"><p><input type="button" id="e2p3-1" value="Máquina B" />&nbsp;&nbsp;&nbsp;<input type="button" id="e2p3-2" value="Máquina A" /></p></div>
+                        <p><input type="button" id="p6-1" value="Máquina B" />&nbsp;&nbsp;&nbsp;<input type="button" id="p6-2" value="Máquina A" /></p>
                     </div>
                     <div class="calificar">
-                        <img id="ce2p3" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
+                        <img id="cp6" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
+                    </div>
+                </div>
+                <div class="calificarTodo">
+                    <div class="calificar">
+                        <p></p>
+                    </div>
+                    <div class="botonCalificar">
+                        <input type="button" id="botonCalificarTodo" value="Revisar" />
                     </div>
                 </div>`
             },
@@ -147,20 +155,28 @@ $(document).ready(function() {
                 <div class="pregunta">
                     <div class="cuerpo">
                         <p>Escribe el rendimiento anual promedio para cada uno de los proyectos</p>
-                        <p>Proyecto D: &nbsp;&nbsp;<input type="number" id="e1p1-1" /> %</p>
-                        <p>Proyecto E: &nbsp;&nbsp;<input type="number" id="e1p1-2" /> %</p>
+                        <p>Proyecto D: &nbsp;&nbsp;<input type="number" id="p1-1" /> %</p>
+                        <p>Proyecto E: &nbsp;&nbsp;<input type="number" id="p1-2" /> %</p>
                     </div>
                     <div class="calificar">
-                        <img id="ce1p1" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
+                        <img id="cp1" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
                     </div>
                 </div>
                 <div class="pregunta">
                     <div class="cuerpo">
                         <p>Con base en el método del RAP o TCR ¿cuál proyecto es más conveniente?</p>
-                        <div class="centrarOpciones"><p><input type="button" id="e1p2-1" value="Proyecto D" />&nbsp;&nbsp;&nbsp;<input type="button" id="e1p2-2" value="Proyecto E" /></p></div>
+                        <p><input type="button" id="p2-1" value="Proyecto D" />&nbsp;&nbsp;&nbsp;<input type="button" id="p2-2" value="Proyecto E" /></p>
                     </div>
                     <div class="calificar">
-                        <img id="ce1p2" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
+                        <img id="cp2" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
+                    </div>
+                </div>
+                <div class="calificarTodo">
+                    <div class="calificar">
+                        <p></p>
+                    </div>
+                    <div class="botonCalificar">
+                        <input type="button" id="botonCalificarTodo" value="Revisar" />
                     </div>
                 </div>`
             },
@@ -205,29 +221,37 @@ $(document).ready(function() {
                 <div class="pregunta">
                     <div class="cuerpo">
                         <p>Escribe el índice de rentabilidad (IR) o razón de beneficio/costo para cada uno de los proyectos</p>
-                        <p>Proyecto de reposición de maquinaria: &nbsp;&nbsp;<input type="number" id="e1p1-1" /></p>
-                        <p>Proyecto de expansión de la empresa: &nbsp;&nbsp;<input type="number" id="e1p1-2" /></p>
+                        <p>Proyecto de reposición de maquinaria: &nbsp;&nbsp;<input type="number" id="p1-1" /></p>
+                        <p>Proyecto de expansión de la empresa: &nbsp;&nbsp;<input type="number" id="p1-2" /></p>
                     </div>
                     <div class="calificar">
-                        <img id="ce1p1" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
+                        <img id="cp1" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
                     </div>
                 </div>
                 <div class="pregunta">
                     <div class="cuerpo">
                         <p>¿En cuál de los dos proyectos es mayor el costo que el beneficio?</p>
-                        <div class="centrarOpciones"><p><input type="button" id="e1p2-1" value="Reposición de maquinaria" />&nbsp;&nbsp;&nbsp;<input type="button" id="e1p2-2" value="Expansión de la empresa" /></p></div>
+                        <p><input type="button" id="p2-1" value="Reposición de maquinaria" />&nbsp;&nbsp;&nbsp;<input type="button" id="p2-2" value="Expansión de la empresa" /></p>
                     </div>
                     <div class="calificar">
-                        <img id="ce1p2" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
+                        <img id="cp2" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
                     </div>
                 </div>
                 <div class="pregunta">
                     <div class="cuerpo">
                         <p>¿Cuál proyecto es más conveniente?</p>
-                        <div class="centrarOpciones"><p><input type="button" id="e1p3-1" value="Reposición de maquinaria" />&nbsp;&nbsp;&nbsp;<input type="button" id="e1p3-2" value="Expansión de la empresa" /></p></div>
+                        <p><input type="button" id="p3-1" value="Reposición de maquinaria" />&nbsp;&nbsp;&nbsp;<input type="button" id="p3-2" value="Expansión de la empresa" /></p>
                     </div>
                     <div class="calificar">
-                        <img id="ce1p3" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
+                        <img id="cp3" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
+                    </div>
+                </div>
+                <div class="calificarTodo">
+                    <div class="calificar">
+                        <p></p>
+                    </div>
+                    <div class="botonCalificar">
+                        <input type="button" id="botonCalificarTodo" value="Revisar" />
                     </div>
                 </div>`
             },
@@ -278,41 +302,49 @@ $(document).ready(function() {
                 <div class="pregunta">
                     <div class="cuerpo">
                         <p>Escribe el valor presente neto VPN o valor actual neto VAN para cada proyecto</p>
-                        <p>Huerta de mangos: &nbsp;&nbsp;<input type="number" id="e1p1-1" /> pesos</p>
-                        <p>Granja camaronera: &nbsp;&nbsp;<input type="number" id="e1p1-2" /> pesos</p>
+                        <p>Huerta de mangos: &nbsp;&nbsp;<input type="number" id="p1-1" /> pesos</p>
+                        <p>Granja camaronera: &nbsp;&nbsp;<input type="number" id="p1-2" /> pesos</p>
                     </div>
                     <div class="calificar">
-                        <img id="ce1p1" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
+                        <img id="cp1" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
                     </div>
                 </div>
                 <div class="pregunta">
                     <div class="cuerpo">
                         <p>Con base en el VPN o VAN ¿Cuál proyecto debe descartar Pepe?</p>
-                        <div class="centrarOpciones"><p><input type="button" id="e1p2-1" value="Huerta de mangos" />&nbsp;&nbsp;&nbsp;<input type="button" id="e1p2-2" value="Granja camaronera" /></p></div>
+                        <p><input type="button" id="p2-1" value="Huerta de mangos" />&nbsp;&nbsp;&nbsp;<input type="button" id="p2-2" value="Granja camaronera" /></p>
                     </div>
                     <div class="calificar">
-                        <img id="ce1p2" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
+                        <img id="cp2" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
                     </div>
                 </div>
                 <div class="pregunta">
                     <div class="cuerpo">
                         <p>Elige las razones que podría considerar Pepe para descartar dicho proyecto</p>
-                        <p><label class="containerCheckbox"><input id="e1p3-1" type="checkbox"><span class="checkmark"></span>&nbsp;&nbsp;Recuperaría la inversión y le quedarían solo 3,400,000 pesos</label></p>
-                        <p><label class="containerCheckbox"><input id="e1p3-2" type="checkbox"><span class="checkmark"></span>&nbsp;&nbsp;Solo recuperaría el valor de la inversión</label></p>
-                        <p><label class="containerCheckbox"><input id="e1p3-3" type="checkbox"><span class="checkmark"></span>&nbsp;&nbsp;No recuperaría ni siquiera el valor de la inversión</label></p>
-                        <p><label class="containerCheckbox"><input id="e1p3-4" type="checkbox"><span class="checkmark"></span>&nbsp;&nbsp;A valor presente le faltarían 6,400 pesos para recuperar la inversión</label></p>
+                        <label class="containerCheckbox"><input id="p3-1" type="checkbox"><span class="checkmark"></span>&nbsp;&nbsp;Recuperaría la inversión y le quedarían solo 3,400,000 pesos</label>
+                        <label class="containerCheckbox"><input id="p3-2" type="checkbox"><span class="checkmark"></span>&nbsp;&nbsp;Solo recuperaría el valor de la inversión</label>
+                        <label class="containerCheckbox"><input id="p3-3" type="checkbox"><span class="checkmark"></span>&nbsp;&nbsp;No recuperaría ni siquiera el valor de la inversión</label>
+                        <label class="containerCheckbox"><input id="p3-4" type="checkbox"><span class="checkmark"></span>&nbsp;&nbsp;A valor presente le faltarían 6,400 pesos para recuperar la inversión</label>
                     </div>
                     <div class="calificar">
-                        <img id="ce1p3" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
+                        <img id="cp3" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
                     </div>
                 </div>
                 <div class="pregunta">
                     <div class="cuerpo">
                         <p>¿Cuál es la mejor opción para invertir?</p>
-                        <div class="centrarOpciones"><p><input type="button" id="e1p4-1" value="Huerta de mangos" />&nbsp;&nbsp;&nbsp;<input type="button" id="e1p4-2" value="Granja camaronera" />&nbsp;&nbsp;&nbsp;<br /><input type="button" id="e1p4-3" value="Es indistinto, ambos proyectos son igualmente convenientes" /></p></div>
+                        <p><input type="button" id="p4-1" value="Huerta de mangos" />&nbsp;&nbsp;&nbsp;<input type="button" id="p4-2" value="Granja camaronera" />&nbsp;&nbsp;&nbsp;<br /><input type="button" id="p4-3" value="Es indistinto, ambos proyectos son igualmente convenientes" /></p>
                     </div>
                     <div class="calificar">
-                        <img id="ce1p4" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
+                        <img id="cp4" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
+                    </div>
+                </div>
+                <div class="calificarTodo">
+                    <div class="calificar">
+                        <p></p>
+                    </div>
+                    <div class="botonCalificar">
+                        <input type="button" id="botonCalificarTodo" value="Revisar" />
                     </div>
                 </div>`
             },
@@ -357,22 +389,216 @@ $(document).ready(function() {
                 <div class="pregunta">
                     <div class="cuerpo">
                         <p>Considerando un costo de capital (K) del 4%, calcula y escribe la TIR para cada uno de los proyectos</p>
-                        <p>Proyecto A: &nbsp;&nbsp;<input type="number" id="e1p1-1" /> %</p>
-                        <p>Proyecto B: &nbsp;&nbsp;<input type="number" id="e1p1-2" /> %</p>
+                        <p>Proyecto A: &nbsp;&nbsp;<input type="number" id="p1-1" /> %</p>
+                        <p>Proyecto B: &nbsp;&nbsp;<input type="number" id="p1-2" /> %</p>
                     </div>
                     <div class="calificar">
-                        <img id="ce1p1" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
+                        <img id="cp1" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
                     </div>
                 </div>
                 <div class="pregunta">
                     <div class="cuerpo">
                         <p>¿En cuál de los dos proyectos invertirías tu dinero?</p>
-                        <div class="centrarOpciones"><p><input type="button" id="e1p2-1" value="Proyecto A" />&nbsp;&nbsp;&nbsp;<input type="button" id="e1p2-2" value="Proyecto B" /></p></div>
+                        <p><input type="button" id="p2-1" value="Proyecto A" />&nbsp;&nbsp;&nbsp;<input type="button" id="p2-2" value="Proyecto B" /></p>
                     </div>
                     <div class="calificar">
-                        <img id="ce1p2" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
+                        <img id="cp2" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
+                    </div>
+                </div>
+                <div class="calificarTodo">
+                    <div class="calificar">
+                        <p></p>
+                    </div>
+                    <div class="botonCalificar">
+                        <input type="button" id="botonCalificarTodo" value="Revisar" />
                     </div>
                 </div>`
+            }
+        ]
+    }
+
+    var respuestas = {
+        "actividades": [
+            {
+                "actividad": "u531",
+                "preguntas": [
+                    {
+                        "pregunta": "p1",
+                        "tipo": "numero",
+                        "reactivos": "1",
+                        "respuestas": {
+                            "1": "4"
+                        }
+                    },
+                    {
+                        "pregunta": "p2",
+                        "tipo": "numero",
+                        "reactivos": "2",
+                        "respuestas": {
+                            "1": "2",
+                            "2": "4"
+                        }
+                    },
+                    {
+                        "pregunta": "p3",
+                        "tipo": "boton",
+                        "reactivos": "2",
+                        "respuestas": {
+                            "1": "no",
+                            "2": "si"
+                        }
+                    },
+                    {
+                        "pregunta": "p4",
+                        "tipo": "numero",
+                        "reactivos": "2",
+                        "respuestas": {
+                            "1": "4",
+                            "2": "5"
+                        }
+                    },
+                    {
+                        "pregunta": "p5",
+                        "tipo": "numero",
+                        "reactivos": "3",
+                        "respuestas": {
+                            "1": "2",
+                            "2": "2",
+                            "3": "1.2"
+                        }
+                    },
+                    {
+                        "pregunta": "p6",
+                        "tipo": "boton",
+                        "reactivos": "2",
+                        "respuestas": {
+                            "1": "si",
+                            "2": "no"
+                        }
+                    }
+                ]
+            },
+            {
+                "actividad": "u532",
+                "preguntas": [
+                    {
+                        "pregunta": "p1",
+                        "tipo": "numero",
+                        "reactivos": "2",
+                        "respuestas": {
+                            "1": "42",
+                            "2": "40"
+                        }
+                    },
+                    {
+                        "pregunta": "p2",
+                        "tipo": "boton",
+                        "reactivos": "2",
+                        "respuestas": {
+                            "1": "si",
+                            "2": "no"
+                        }
+                    }
+                ]
+            },
+            {
+                "actividad": "u533",
+                "preguntas": [
+                    {
+                        "pregunta": "p1",
+                        "tipo": "numero",
+                        "reactivos": "2",
+                        "respuestas": {
+                            "1": "1.09",
+                            "2": "0.92"
+                        }
+                    },
+                    {
+                        "pregunta": "p2",
+                        "tipo": "boton",
+                        "reactivos": "2",
+                        "respuestas": {
+                            "1": "no",
+                            "2": "si"
+                        }
+                    },
+                    {
+                        "pregunta": "p3",
+                        "tipo": "boton",
+                        "reactivos": "2",
+                        "respuestas": {
+                            "1": "si",
+                            "2": "no"
+                        }
+                    }
+                ]
+            },
+            {
+                "actividad": "u534",
+                "preguntas": [
+                    {
+                        "pregunta": "p1",
+                        "tipo": "numero",
+                        "reactivos": "2",
+                        "respuestas": {
+                            "1": "-6400",
+                            "2": "1105664"
+                        }
+                    },
+                    {
+                        "pregunta": "p2",
+                        "tipo": "boton",
+                        "reactivos": "2",
+                        "respuestas": {
+                            "1": "si",
+                            "2": "no"
+                        }
+                    },
+                    {
+                        "pregunta": "p3",
+                        "tipo": "multiple",
+                        "reactivos": "4",
+                        "respuestas": {
+                            "1": "no",
+                            "2": "no",
+                            "3": "si",
+                            "4": "si"
+                        }
+                    },
+                    {
+                        "pregunta": "p4",
+                        "tipo": "boton",
+                        "reactivos": "3",
+                        "respuestas": {
+                            "1": "no",
+                            "2": "si",
+                            "3": "no"
+                        }
+                    },
+                ]
+            },
+            {
+                "actividad": "u535",
+                "preguntas": [
+                    {
+                        "pregunta": "p1",
+                        "tipo": "numero",
+                        "reactivos": "2",
+                        "respuestas": {
+                            "1": "6",
+                            "2": "-4"
+                        }
+                    },
+                    {
+                        "pregunta": "p2",
+                        "tipo": "boton",
+                        "reactivos": "2",
+                        "respuestas": {
+                            "1": "si",
+                            "2": "no"
+                        }
+                    },
+                ]
             }
         ]
     }
@@ -381,17 +607,17 @@ $(document).ready(function() {
 	w       = screen.availWidth - (screen.availWidth / 3) - 50,
 	h       = screen.availHeight - (screen.availHeight / 4) - 50;
 
-    var divPreguntas = $("#preguntas");
-    divPreguntas.css({width: w, height: h});
-    divPreguntas.parent().css({background: "#9DE9E7"});
+    var divActividad = $("#actividad");
+    divActividad.css({width: w, height: h});
+    divActividad.parent().css({background: "#9DE9E7"});
 
     actividades.actividades.forEach((actividad) => {
         if(actividad.actividad == localStorage.getItem("seccion")) {
-            divPreguntas.append(actividad.desarrollo);
+            divActividad.append(actividad.desarrollo);
         }
     })
 
-    var botones = $("#preguntas").find('input[type=button]');
+    var botones = $("#actividad").find('input[type=button]');
 
     botones.click(function() {
         if(!$(this).hasClass("botonSeleccionado")) {
@@ -403,7 +629,109 @@ $(document).ready(function() {
     var botonesCalificar = $(".calificarIndividual");
 
     botonesCalificar.click(function() {
-        alert(this.id);
+        respuestas.actividades.forEach((actividad) => {
+            if(actividad.actividad == localStorage.getItem("seccion")) {
+                actividad.preguntas.forEach((pregunta) => {
+                    if(this.id.endsWith(pregunta.pregunta)) {
+                        var divPregunta = this.parentNode.parentNode;
+                        var calificacion = true;
+                        if(pregunta.tipo == "numero") {
+                            var reactivos = divPregunta.getElementsByClassName("cuerpo")[0].getElementsByTagName("input");
+                            for(let i=1; i<=parseInt(pregunta.reactivos); i++) {
+                                var clase = "" + this.id.replace("c", "") + "-" + i;
+                                if(reactivos[i-1].id == clase) {
+                                    var intento = reactivos[i-1].value;
+                                    var numero = reactivos[i-1].id.split("-")[1];
+                                    if(pregunta.respuestas[numero] != intento) {
+                                        calificacion = false;
+                                        break;
+                                    }
+                                }
+                            }
+                        } else if(pregunta.tipo == "boton") {
+                            var reactivos = divPregunta.getElementsByClassName("cuerpo")[0].getElementsByTagName("input");
+                            for(let i=1; i<=parseInt(pregunta.reactivos); i++) {
+                                var clase = "" + this.id.replace("c", "") + "-" + i;
+                                if(reactivos[i-1].id == clase) {
+                                    var intento = $(reactivos[i-1]).hasClass("botonSeleccionado");
+                                    var numero = reactivos[i-1].id.split("-")[1];
+                                    if((pregunta.respuestas[numero] == "si" && !intento) || (pregunta.respuestas[numero] == "no") && intento) {
+                                        calificacion = false;
+                                        break;
+                                    }
+                                }
+                            }
+                        } else if(pregunta.tipo == "multiple") {
+                            var reactivos = divPregunta.getElementsByClassName("cuerpo")[0].getElementsByTagName("input");
+                            for(let i=1; i<=parseInt(pregunta.reactivos); i++) {
+                                var clase = "" + this.id.replace("c", "") + "-" + i;
+                                if(reactivos[i-1].id == clase) {
+                                    var intento = reactivos[i-1].checked;
+                                    var numero = reactivos[i-1].id.split("-")[1];
+                                    if((pregunta.respuestas[numero] == "si" && !intento) || (pregunta.respuestas[numero] == "no") && intento) {
+                                        calificacion = false;
+                                        break;
+                                    }
+                                }
+                            }
+                        }
+                        if(calificacion) {
+                            divPregunta = $(this).parent().parent();
+                            divPregunta.css({background: "#ACDEBD"});
+                        } else {
+                            divPregunta = $(this).parent().parent();
+                            divPregunta.css({background: "#FB9F9F"});
+                        }
+                    }
+                })
+            }
+        });
+    });
+
+    var botonCalificar = $("#botonCalificarTodo");
+
+    botonCalificar.click(function() {
+        var aciertos = 0;
+        var aciertosTotales = 0;
+        respuestas.actividades.forEach((actividad) => {
+            if(actividad.actividad == localStorage.getItem("seccion")) {
+                aciertosTotales = actividad.preguntas.length;
+                actividad.preguntas.forEach((pregunta) => {
+                    var acierto = true;
+                    var reactivosPregunta = $('*[id^="' + pregunta.pregunta + '"]');
+                    if(pregunta.tipo == "numero") {
+                        for(let i=1; i<=parseInt(pregunta.reactivos); i++) {
+                            var intento = reactivosPregunta[i-1].value;
+                            if(pregunta.respuestas[i] != intento) {
+                                acierto = false;
+                            }
+                        }
+                    } else if(pregunta.tipo == "boton") {
+                        for(let i=1; i<=parseInt(pregunta.reactivos); i++) {
+                            var intento = $(reactivosPregunta[i-1]).hasClass("botonSeleccionado");
+                            if((pregunta.respuestas[i] == "si" && !intento) || (pregunta.respuestas[i] == "no") && intento) {
+                                acierto = false;
+                            }
+                        }
+                    } else if(pregunta.tipo == "multiple") {
+                        for(let i=1; i<=parseInt(pregunta.reactivos); i++) {
+                            var intento = reactivosPregunta[i-1].checked;
+                            if((pregunta.respuestas[i] == "si" && !intento) || (pregunta.respuestas[i] == "no") && intento) {
+                                acierto = false;
+                            }
+                        }
+                    }
+                    if(acierto) {
+                        aciertos++;
+                        reactivosPregunta.parent().parent().parent().css({background: "#ACDEBD"});
+                    } else {
+                        reactivosPregunta.parent().parent().parent().css({background: "#FB9F9F"});
+                    }
+                });
+            }
+        });
+        var divResultado = $(".calificarTodo .calificar p");
+        divResultado.text("" + aciertos + "/" + aciertosTotales + " aciertos");
     });
 
 });
