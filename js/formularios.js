@@ -608,7 +608,7 @@ $(document).ready(function() {
 	h       = screen.availHeight - (screen.availHeight / 4) - 50;
 
     var divActividad = $("#actividad");
-    divActividad.css({width: w, height: h});
+    divActividad.css({width: "95%", height: "95vh"});
     divActividad.parent().css({background: "#9DE9E7"});
 
     actividades.actividades.forEach((actividad) => {

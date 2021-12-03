@@ -19,7 +19,7 @@ $(document).ready(function() {
                 "definicion": `<p>El método del índice de rentabilidad o también conocido como razón de beneficio/costo permitirá calcular la ganancia o pérdida neta que tiene una inversión durante el tiempo de vida del proyecto, el resultado se expresa como un porcentaje del costo inicial de la inversión. Las ganancias o beneficios de la inversión se pueden definir como la razón que hay entre la suma de los valores presentes de los flujos netos de efectivo (FNE) de un proyecto, descontados con la tasa de costo de capital (K), y la inversión inicial requerida (Alemán, 2003).</p>
                 <img class="centrado ecuacion" width="50%" src="img/eq3.2.png" />
                 <p>El IR se puede interpretar como el valor presente o la rentabilidad que se obtiene por cada unidad monetaria invertida en el proyecto.</p>
-                <h3>Criterios de decisión:</h3>
+                <h3 align="center">Criterios de decisión:</h3>
                 <table class="tabla" border="1">
                     <tr>
                         <td>IR > 1</td>
@@ -75,7 +75,7 @@ $(document).ready(function() {
                 "concepto": "Rendimiento anual promedio (RAP) o tasa contable del rendimiento (TCR)",
                 "definicion": `<p>Método de evaluación de proyectos que permite calcular la razón que existe entre los flujos netos de efectivo promedio del proyecto y la inversión inicial requerida; es decir:</p>
                 <img class="centrado ecuacion" width="60%" src="img/eq3.1.png" />
-                <h3>Criterios de decisión:</h3>
+                <h3 align="center">Criterios de decisión:</h3>
                 <p>Si el cálculo del rendimiento anual promedio es igual o mayor a la tasa de rendimiento anual mínima establecida por el inversionista el proyecto podría aceptarse, de lo contrario se rechazaría (Alemán, 2003).</p>`
             },
             {
@@ -93,7 +93,7 @@ $(document).ready(function() {
                         <li>n = Número de periodos de vida del proyecto (tiempo de vida)</li>
                     </ul>
                 </div>
-                <h3>Criterios de decisión:</h3>
+                <h3 align="center">Criterios de decisión:</h3>
                 <table class="tabla" border="1">
                     <tr>
                         <td>TIR > K</td>
@@ -113,7 +113,7 @@ $(document).ready(function() {
                 "concepto": "Valor presente neto (VPN) o valor actual neto (VAN)",
                 "definicion": `<p>Método que toma en cuenta el valor del dinero en el tiempo. Se define como el valor de los flujos netos de efectivo proyectados descontados al presente menos la inversión inicial. Es un método financiero utilizado para evaluar la rentabilidad de la inversión inicial de un proyecto.</p>
                 <p>El cálculo depende de la tasa mínima aceptable de rendimiento (TMAR) o también conocida como costo de capital (K) que se establezca para el proyecto en cuestión. La fórmula para calcular el VPN o VAN es a través de un quebrado o razón aritmética en donde el numerador de dicha razón es dinero (flujos netos de efectivo descontados al presente) y el denominador es la tasa de interés a la cual se ajusta el proyecto (TMAR), a este resultado se le restara el valor de la inversión inicial (Io). (Baca, 2017; Angulo, 2016; Alemán, 2003).</p>
-                <h3>Criterios de decisión:</h3>
+                <h3 align="center">Criterios de decisión:</h3>
                 <table class="tabla" border="1">
                     <tr>
                         <td>VPN > 0</td>
