@@ -609,6 +609,10 @@ body {
     line-height: 1.5;
 }
 
+#informacion .listaPuntos li {
+    list-style: circle;
+}
+
 #informacion ul li, #actividad ul li {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -734,6 +738,17 @@ body {
     margin-left: auto;
     margin-right: auto;
     max-width: 95%;
+}
+
+#informacion .contactos img {
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 #informacion .tabla th, #actividad th {
