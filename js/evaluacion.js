@@ -487,7 +487,10 @@ $(document).ready(function() {
             }
         }
         var divResultado = $(".calificarTodo .calificar p");
-        divResultado.text("" + aciertos + "/" + aciertosTotales + " aciertos");
+        divResultado.text("Tu resultado fue: " + aciertos + "/" + aciertosTotales + " aciertos");
+        if(aciertosTotales == aciertos) {
+            divResultado.text("Tu resultado fue: " + aciertos + "/" + aciertosTotales + " ¡Felicidades!");
+        }
     });
 
 });
