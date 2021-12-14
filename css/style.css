@@ -282,7 +282,7 @@ body {
     background: #FBFBFB;
 }
 
-#actividad .pregunta {
+#informacion #actividad .pregunta {
     display: flex;
     width: 90%;
     min-height: fit-content;
@@ -297,6 +297,23 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background: #C4F2F1;
+}
+
+#actividad .pregunta {
+    display: flex;
+    width: 90%;
+    min-height: fit-content;
+    background: #FBFBFB;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #FBFBFB;
 }
 
 #actividad .noPregunta {
@@ -456,6 +473,54 @@ body {
 }
 
 #actividad .containerCheckbox {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    max-width: fit-content;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-left: 65px;
+    padding-right: 30px;
+    line-height: 1.5;
+}
+
+#actividad .containerCheckbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+#actividad .checkmark {
+    position: absolute;
+    top: 5px;
+    left: 35px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 25px;
+    background-color: transparent;
+    border: 2px solid #A7B6E8;
+}
+
+#actividad .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+#actividad .containerCheckbox input:checked ~ .checkmark {
+    background-color: #A7B6E8;
+}
+
+/*
+#actividad .containerCheckbox {
     display: table;
     position: relative;
     cursor: pointer;
@@ -500,6 +565,10 @@ body {
 #actividad .containerCheckbox input:checked ~ .checkmark {
     background-color: #A7B6E8;
 }
+*/
+
+
+
 
 #informacion .solito {
     margin-top: 150px;
@@ -651,7 +720,7 @@ body {
     -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
 }
 
-#informacion figcaption, #actividad figcaption {
+#informacion figcaption, #actividad figcaption, caption {
     font-size: 20px;
     padding-top: 5px;
     padding-bottom: 5px;

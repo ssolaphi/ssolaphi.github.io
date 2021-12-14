@@ -86,7 +86,7 @@ $(document).ready(function() {
                 <div class="pregunta">
                     <div class="cuerpo">
                         <p>¿En qué tiempo se recupera la inversión de la máquina A?</p>
-                        <p><input type="number" id="p4-1" /> años &nbsp;&nbsp;&nbsp; <input type="number" id="p4-2" /> meses</p>
+                        <p><input type="number" id="p4-1" /> años &nbsp;&nbsp;&nbsp; <input type="number" id="p4-2" /> meses &nbsp;&nbsp;&nbsp; <input type="number" id="p4-3" /> días</p>
                     </div>
                     <div class="calificar">
                         <img id="cp4" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
@@ -95,7 +95,7 @@ $(document).ready(function() {
                 <div class="pregunta">
                     <div class="cuerpo">
                         <p>¿En qué tiempo se recupera la inversión de la máquina B?</p>
-                        <p><input type="number" id="p5-1" /> años &nbsp;&nbsp;&nbsp; <input type="number" id="p5-2" /> meses &nbsp;&nbsp;&nbsp; <input type="number" id="p5-3" /> días</p>
+                        <p><input type="number" id="p5-1" /> años</p>
                     </div>
                     <div class="calificar">
                         <img id="cp5" class="calificarIndividual" src="img/btn-calificarIndividual.png" />
@@ -451,20 +451,19 @@ $(document).ready(function() {
                     {
                         "pregunta": "p4",
                         "tipo": "numero",
-                        "reactivos": "2",
+                        "reactivos": "3",
                         "respuestas": {
                             "1": "4",
-                            "2": "5"
+                            "2": "4",
+                            "3": "24"
                         }
                     },
                     {
                         "pregunta": "p5",
                         "tipo": "numero",
-                        "reactivos": "3",
+                        "reactivos": "1",
                         "respuestas": {
                             "1": "2",
-                            "2": "2",
-                            "3": "1.2"
                         }
                     },
                     {

@@ -30,7 +30,7 @@
                 </div>
                 <div id="tituloHeader">
                     <h1>Recurso Didáctico Digital</h1>
-                    <h2>Unidad 5: métodos de evaluación de proyectos de inversión de la UA Finanzas Empresariales</h2>
+                    <h2>Unidad 5: Métodos de evaluación de proyectos de inversión de la UA Finanzas Empresariales</h2>
                 </div>
             </div>
 
@@ -60,7 +60,7 @@
                         <a href="../secciones/introduccion.html"><li>Introducción</li></a>
                         <a href="../secciones/u51.html"><li>5.1 Los proyectos de inversión</li></a>
                         <a href="../secciones/u52.html"><li>5.2 Proceso de preparación y evaluación de proyectos</li></a>
-                        <a href="../secciones/u53.html"><li>5.3 Métodos de evaluación financiera para proyectos de inversión</li></a>
+                        <a href="../secciones/u53.html"><li>5.3 Métodos de evaluación financiera de proyectos de inversión</li></a>
                         <a href="../secciones/u531.html"><li class="subtema">5.3.1 Método del período de recuperación de la inversión (PRI)</li></a>
                         <a href="../secciones/u532.html"><li class="subtema">5.3.2 Método de rendimiento anual promedio (RAP)</li></a>
                         <a href="../secciones/u533.html"><li class="subtema">5.3.3 Costo-beneficio</li></a>
@@ -75,13 +75,13 @@
                 <div id="texto">
                     <div id="informacion">
                         <h1>5.3.5 Tasa interna de rendimiento (TIR)</h1>
-                        <p>La TIR es la tasa de descuento que hace que el valor presente de los flujos de efectivo netos generados por un proyecto sea igual a la inversión inicial requerida; es decir, es la tasa que provoca que el VPN de un proyecto sea igual a cero.</p>
+                        <p>La TIR es la tasa de descuento que hace que el valor presente de los flujos netos de efectivo generados por un proyecto sea igual a la inversión inicial requerida; es decir, es la tasa que provoca que el VPN de un proyecto sea igual a cero.</p>
                         <p>Su fórmula es:</p>
                         <img class="centrado ecuacion" width="90%" src="../img/eq3.3.png" />
                         <div class="definicionVariables">
                             <p>Donde:</p>
                             <ul>
-                                <li>TIR = Tasa de rendimiento</li>
+                                <li>TIR = Tasa interna de rendimiento</li>
                                 <li>VPN = Valor presente neto</li>
                                 <li>FNE = Flujo neto de efectivo</li>
                                 <li>I<sub>o</sub> = Inversión inicial requerida</li>
@@ -89,39 +89,57 @@
                             </ul>
                         </div>
                         <p>El valor que satisfaga la ecuación anterior será el que ocasione que la suma de los flujos netos de efectivo descontados sea igual a la inversión inicial requerida para realizar el proyecto. Cabe señalar la relación inversa que existe entre la TIR y el VPN: cuando se incrementa la TIR, disminuye el VPN, y cuando disminuye la TIR, se incrementa el VPN.</p>
-                        <p>No existe una forma directa de obtener el valor de la TIR, es necesario encontrarla mediante prueba y error. Sin embargo, en Excel tenemos la función financiera TIR que permite calcular el valor de manera automática</p>
-                        <p>Para calcula el valor de la TIR de nuestro ejemplo vamos primeramente a proponer un valor de 20%; con este valor nos concentraremos en la suma de los flujos netos descontados los cuales nos tienen que dar el valor de la inversión inicial</p>
+                        <p>No existe una forma directa de obtener el valor de la TIR, es necesario encontrarla mediante prueba y error. Sin embargo, en Excel tenemos la función financiera TIR que permite calcular el valor de manera automática.</p>
+                        <p>Continuando con nuestro ejemplo: El proyecto “A” requiere una inversión de $10,000 pesos, los flujos netos de efectivo (FNE) esperados para los años del 1 al 5 son $2,500, $3,200, $4,100, $5,300 y $5,000 respectivamente; vamos a calcular la TIR.</p>
+                        <p>Realicemos el primer ensayo proponiendo un valor para la TIR del 20%, con este valor nos concentraremos en la suma de los flujos netos descontados (en el ejemplo, corresponde a los períodos del 1 al 5) los cuales tiene que dar el valor de la inversión inicial.</p>
                         <img class="centrado ecuacion" width="90%" src="../img/eq3.5.1.png" />
                         <img class="centrado ecuacion" width="90%" src="../img/eq3.5.2.png" />
                         <p>Como podemos observar el valor que obtenemos de la suma de los flujos descontados es superior a la de la inversión inicial, por lo que ahora propondremos un valor mayor para la TIR; proponemos 25%</p>
                         <img class="centrado ecuacion" width="90%" src="../img/eq3.5.3.png" />
                         <img class="centrado ecuacion" width="90%" src="../img/eq3.5.4.png" />
-                        <img class="centrado ecuacion" width="90%" src="../img/eq3.5.5.png" />
-                        <p>Con el nuevo valor propuesto ahora la suma de los flujos netos descontados está por debajo del valor de la inversión inicial lo cual quiere decir que el valor de la TIR que buscando se encuentra entre 20% y 25% podríamos seguir proponiendo valores entre este rango hasta encontrar un valor que nos aproxime lo más que se pueda al valor de la inversión inicial, pero ya que tenemos un valor superior y uno inferior y estamos muy cerca de encontrarlo podemos interpolar.</p>
-                        <p>Para interpolar vamos a colocar el valor que obtuvimos de la suma de los flujos descontados cuando propusimos la tasa del 20% en el primer renglón, columnas 1 y 2, el valor que andamos buscando que en este caso es de $11,340; posteriormente en el segundo renglón y solo en la columna 2 colocamos el valor de la inversión inicial y el valor que corresponde a la suma de los flujos netos descontados cuando se propuso la tasa del  25% se colocara en el tercer renglón y solamente en la primer columna. Una vez que colocamos los valores procedemos a restarlos, en cada columna, como se muestra a continuación:</p>
+                        <p>Con el nuevo valor propuesto ahora la suma de los flujos netos descontados está por debajo del valor de la inversión inicial lo cual quiere decir que el valor de la TIR que buscando se encuentra entre 20% y 25%, por lo que procederemos a interpolar para encontrar un valor más preciso.</p>
+                        <p>Para interpolar vamos a emplear una matriz con 3 columnas y 4 renglones (tabla 6).</p>
+                        <h3>Primer renglón</h3>
+                        <p>Colocar el valor que obtuvimos de la suma de los flujos descontados $11,340 (columnas 2 y 3) cuando propusimos la tasa del 20% (columna 1).</p>
+                        <h3>Segundo renglón</h3>
+                        <p>Únicamente en la columna 3 colocar el valor de la inversión.</p>
+                        <h3>Tercer renglón</h3>
+                        <p>En la columna 2 registrar la suma de los flujos netos de efectivo descontados que fueron de $9,991.52 cuando se propuso la tasa del 25% (columna 1).</p>
+                        <h3>Cuarto renglón</h3>
+                        <p>Se restan los valores registrados en las columnas 2 y 3.</p>
                         <table class="tabla">
                             <tr>
-                                <td class="textoCentrado resta">20%</td>
-                                <td class="textoCentrado resta">11 340</td>
-                                <td class="textoCentrado resta">11 340</td>
+                                <td></td>
+                                <td class="textoCentrado">1</td>
+                                <td class="textoCentrado">2</td>
+                                <td class="textoCentrado">3</td>
                             </tr>
                             <tr>
+                                <td class="textoCentrado">1</td>
+                                <td class="textoCentrado resta">20%</td>
+                                <td class="textoCentrado resta">$11,340</td>
+                                <td class="textoCentrado resta">$11,340</td>
+                            </tr>
+                            <tr>
+                                <td class="textoCentrado">2</td>
                                 <td class="textoCentrado resta">r%</td>
                                 <td class="textoCentrado resta"></td>
-                                <td class="textoCentrado resta">10 000</td>
+                                <td class="textoCentrado resta">$10,000</td>
                             </tr>
                             <tr>
+                                <td class="textoCentrado">3</td>
                                 <td class="textoCentrado resta">25%</td>
-                                <td class="textoCentrado resta" style="border-bottom: 1px solid black;">9 991.52</td>
+                                <td class="textoCentrado resta" style="border-bottom: 1px solid black;">$9,991.52</td>
                                 <td class="textoCentrado resta" style="border-bottom: 1px solid black;"></td>
                             </tr>
                             <tr>
+                                <td class="textoCentrado">4</td>
                                 <td class="textoCentrado resta"></td>
-                                <td class="textoCentrado resta">1 348.48</td>
-                                <td class="textoCentrado resta">1 340</td>
+                                <td class="textoCentrado resta">$1,348.48</td>
+                                <td class="textoCentrado resta">$1,340</td>
                             </tr>
                         </table>
-                        <p>Ya que obtenemos el valor de las restas correspondientes haremos la división del resultado de la segunda columna entre el valor del resultado de la primera, ese resultado lo vamos a multiplicar por la diferencia que hay entre las tasas propuestas (20 - 25 = 5) que en este caso seria 5 después de obtener el resultado le sumamos la tasa con el menor valor que propusimos en nuestro ejemplo que sería 20% y de esta manera estamos obteniendo el valor de la TIR.</p>
+                        <p>Ya que obtenemos el valor de las restas correspondientes, dividimos el resultado de la columna 3 entre el resultado de la columna 2. Dicho resultado se multiplica por la diferencia que hay entre las tasas propuestas (20 - 25 = 5), que en este caso es de 5, a este resultado le sumamos la tasa propuesta con el menor valor, para nuestro ejemplo es 20% y así el resultado de la TIR es del 24.97%.</p>
                         <img class="centrado ecuacion" width="70%" src="../img/eq3.5.6.png" />
                         <img class="centrado ecuacion" width="25%" src="../img/eq3.5.7.png" />
                         <h3>Criterios de decisión:</h3>
