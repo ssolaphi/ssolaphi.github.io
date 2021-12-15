@@ -44,7 +44,6 @@ body {
 
 #header #tituloHeader {
     display: inline-block;
-    float: right;
     text-align: right;
     width: 60%;
     margin-right: 70px;
@@ -229,7 +228,7 @@ body {
 #texto {
     float: right;
     width: 70%;
-    height: 1100px;
+    height: 1200px;
     box-sizing: border-box;
     border-top: 2px solid black;
     border-left: 2px solid black;
@@ -252,7 +251,7 @@ body {
     margin-top: 30px;
     margin-bottom: 30px;
     width: 100%;
-    height: 990px;
+    height: 1070px;
     box-sizing: border-box;
     overflow-y: scroll
 }
@@ -409,6 +408,7 @@ body {
 #informacion::-webkit-scrollbar-thumb, #actividad::-webkit-scrollbar-thumb {
 	border-radius: 10px;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: #555;
 }
 
@@ -660,7 +660,11 @@ body {
     float: right;
 }
 
-.botonArchivos:hover {
+.botonActividadIntegradora {
+    width: 100%;
+}
+
+.botonArchivos:hover, .botonActividadFinal:hover {
     cursor: pointer;
 }
 
@@ -810,8 +814,11 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 100px;
+    height: 140px;
     text-align: center;
-    z-index: 10;
-    margin-top:auto;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 1.5;
 }
