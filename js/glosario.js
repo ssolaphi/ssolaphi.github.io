@@ -4,15 +4,15 @@ $(document).ready(function() {
         "conceptos": [
             {
                 "concepto": "Evaluación financiera",
-                "definicion": `<p>“La evaluación financiera describe los métodos actuales de evaluación que toman en cuenta el valor del dinero a través del tiempo (como la tasa interna de rendimiento y el valor presente neto), anota sus limitaciones de aplicación y los compara con métodos contables de evaluación que no toman en cuenta el valor del dinero en el tiempo, y en ambos muestra su aplicación práctica. La decisión de inversión casi siempre recae en la evaluación financiera” (Angulo, 2016).</p>`
+                "definicion": `<p>“La evaluación financiera describe los métodos actuales de evaluación que toman en cuenta el valor del dinero a través del tiempo (como la tasa interna de rendimiento y el valor presente neto), anota sus limitaciones de aplicación y los compara con métodos contables de evaluación que no toman en cuenta el valor del dinero en el tiempo, y en ambos muestra su aplicación práctica. La decisión de inversión casi siempre recae en la evaluación financiera” (Angulo, 2016, p. 48).</p>`
             },
             {
                 "concepto": "Flujo neto de efectivo (FNE) o flujo de caja",
-                "definicion": `<p>Informe que resume las entradas y salidas de dinero a lo largo de la vida útil del proyecto, y que permite determinar la rentabilidad de la inversión (Angulo, 2016).</p>`
+                "definicion": `<p>Informe que resume las entradas y salidas de dinero a lo largo de la vida útil del proyecto, y que permite determinar la rentabilidad de la inversión (Angulo, 2016, p. 295).</p>`
             },
             {
                 "concepto": "Horizonte de evaluación de un proyecto",
-                "definicion": `<p>“Es el período durante el cual se pronosticarán los flujos de caja para medir la rentabilidad de un proyecto” La vida útil de un proyecto no debe confundirse con el horizonte de evaluación, aunque pueden coincidir (Angulo, 2016).</p>`
+                "definicion": `<p>“Es el período durante el cual se pronosticarán los flujos de caja para medir la rentabilidad de un proyecto”. La vida útil de un proyecto no debe confundirse con el horizonte de evaluación, aunque pueden coincidir (Angulo, 2016, p. 295).</p>`
             },
             {
                 "concepto": "Índice de rentabilidad (IR) o razón de beneficio/costo",
@@ -37,8 +37,8 @@ $(document).ready(function() {
             },
             {
                 "concepto": "Inversión",
-                "definicion": `<p>“Es el empleo de un conjunto de recursos para producir un bien o servicio y generar una utilidad” (Sabino, 2015, citado en Angulo 2016).</p>
-                <p>La inversión implica “emplear recursos hoy: se renuncia al uso inmediato de un recurso disponible con la esperanza de recuperarlo en un tiempo determinado con una utilidad adicional. En pocas palabras se renuncia a un beneficio inmediato por uno futuro” (Angulo, 2016).</p>`
+                "definicion": `<p>“Es el empleo de un conjunto de recursos para producir un bien o servicio y generar una utilidad” (Sabino, 2015, citado en Angulo 2016, p. 18).</p>
+                <p>La inversión implica “emplear recursos hoy: se renuncia al uso inmediato de un recurso disponible con la esperanza de recuperarlo en un tiempo determinado con una utilidad adicional. En pocas palabras se renuncia a un beneficio inmediato por uno futuro” (Angulo, 2016, p. 18).</p>`
             },
             {
                 "concepto": "Métodos de evaluación financiera para proyectos de inversión",
@@ -63,13 +63,13 @@ $(document).ready(function() {
             },
             {
                 "concepto": "Proyecto",
-                "definicion": `<p>“Proyecto es un esfuerzo temporal que se lleva a cabo para obtener un producto, servicio o resultado único” (Guía del PMBOK, 2017). Esta definición es bastante inclusiva podría abarcar, por ejemplo, un proyecto escolar, un proyecto de vida, la construcción de una vivienda, el lanzamiento de un satélite, así como la creación de una empresa, por mencionar algunos.</p>
-                <p>“Un proyecto es la búsqueda de una solución inteligente al planteamiento de un problema, la cual tiende a resolver una necesidad humana o aprovechar una oportunidad de negocio” (Baca, 2016).</p>`
+                "definicion": `<p>“Proyecto es un esfuerzo temporal que se lleva a cabo para obtener un producto, servicio o resultado único” (Guía del PMBOK, 2017, p. 4). Esta definición es bastante inclusiva podría abarcar, por ejemplo, un proyecto escolar, un proyecto de vida, la construcción de una vivienda, el lanzamiento de un satélite, así como la creación de una empresa, por mencionar algunos.</p>
+                <p>“Un proyecto es la búsqueda de una solución inteligente al planteamiento de un problema, la cual tiende a resolver una necesidad humana” (Baca, 2016, p. 2).</p>`
             },
             {
                 "concepto": "Proyecto de inversión",
-                "definicion": `<p>“Es un plan que, si se le asigna determinado monto de capital y se le proporcionan insumos de varios tipos, producirá un bien o servicio, útil para la sociedad” (Baca, 2016).</p>
-                <p>“Una propuesta (un documento con varios planes o estudios) de inversión para instalaciones destinadas a proporcionar bienes o servicios (Angulo, 2016).</p>`
+                "definicion": `<p>“Es un plan que, si se le asigna determinado monto de capital y se le proporcionan insumos de varios tipos, producirá un bien o servicio, útil para la sociedad” (Baca, 2016, p. 2).</p>
+                <p>“Una propuesta (un documento con varios planes o estudios) de inversión para instalaciones destinadas a proporcionar bienes o servicios (Angulo, 2016, p. 19).</p>`
             },
             {
                 "concepto": "Rendimiento anual promedio (RAP) o tasa contable del rendimiento (TCR)",
@@ -97,15 +97,15 @@ $(document).ready(function() {
                 <table class="tabla" border="1">
                     <tr>
                         <td>TIR > K</td>
-                        <td>El proyecto se acepta porque genera flujos de efectivo superiores a los<br />que se requieren para financiarlo, por lo tanto incrementa el patrimonio<br />de los accionistas</td>
+                        <td>El proyecto se acepta porque genera flujos de efectivo superiores a los<br />que se requieren para financiarlo, por lo tanto incrementa el patrimonio<br />de los accionistas.</td>
                     </tr>
                     <tr>
                         <td>TIR &lt; K</td>
-                        <td>El proyecto se rechaza porque los flujos de efectivo que genera son<br />inferiores a los que se requieren para financiarlo; por lo tanto,<br />disminuye el patrimonio de los inversionistas</td>
+                        <td>El proyecto se rechaza porque los flujos de efectivo que genera son<br />inferiores a los que se requieren para financiarlo; por lo tanto,<br />disminuye el patrimonio de los inversionistas.</td>
                     </tr>
                     <tr>
                         <td>TIR = K</td>
-                        <td>Es indiferente aceptar o rechazar el proyecto. El rendimiento genera<br />compensa exactamente al costo de capital</td>
+                        <td>Es indiferente aceptar o rechazar el proyecto. El rendimiento genera<br />compensa exactamente al costo de capital.</td>
                     </tr>
                 </table>`
             },
@@ -131,7 +131,7 @@ $(document).ready(function() {
             },
             {
                 "concepto": "Vida útil del proyecto",
-                "definicion": `<p>“La vida útil de un proyecto se asocia con el tiempo durante el cual se espera recibir beneficios o con el plazo en el que se estima subsistirán los problemas que se busca resolver. La vida útil no debe confundirse con el horizonte de evaluación, aunque pueden coincidir” (Angulo, 2016).</p>`
+                "definicion": `<p>“La vida útil de un proyecto se asocia con el tiempo durante el cual se espera recibir beneficios o con el plazo en el que se estima subsistirán los problemas que se busca resolver. La vida útil no debe confundirse con el horizonte de evaluación, aunque pueden coincidir” (Angulo, 2016, p. 295).</p>`
             }
         ]
     }

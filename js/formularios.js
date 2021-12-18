@@ -4,7 +4,7 @@ $(document).ready(function() {
         "actividades": [
             {
                 "actividad": "u531",
-                "desarrollo": `<h1>Actividad</h1>
+                "desarrollo": `
                 <h2>Ejercicio 1</h2>
                 <div class="noPregunta">
                     <p>Supóngase que tienes dos propuestas para invertir y en cada una de ellas se requiere una inversión de $1,000,000.</p>
@@ -121,7 +121,8 @@ $(document).ready(function() {
             },
             {
                 "actividad": "u532",
-                "desarrollo": `<h1>Actividad</h1>
+                "desarrollo": `
+                <h2>Ejercicio</h2>
                 <div class="noPregunta">
                     <p>Supongamos que estamos tratando de elegir entre dos proyectos mutuamente excluyentes que requieren una inversión de $10,000 pesos; se esperan los siguientes flujos netos de efectivo y un costo de capital del 35%</p>
                     <table class="tabla" border="1">
@@ -182,7 +183,8 @@ $(document).ready(function() {
             },
             {
                 "actividad": "u533",
-                "desarrollo": `<h1>Actividad</h1>
+                "desarrollo": `
+                <h2>Ejercicio</h2>
                 <div class="noPregunta">
                     <p>La compañía “El Carrusel” desea invertir en uno de dos proyectos, el primero es un proyecto de reposición de maquinaria y el segundo es un proyecto de expansión de la empresa; para ambos proyectos se fija una tasa mínima de aceptación del 14%, y presentan los siguientes flujos netos de efectivo:</p>
                     <table class="tabla" border="1">
@@ -257,7 +259,8 @@ $(document).ready(function() {
             },
             {
                 "actividad": "u534",
-                "desarrollo": `<h1>Actividad</h1>
+                "desarrollo": `
+                <h2>Ejercicio</h2>
                 <div class="noPregunta">
                     <p>Pepe es un joven empresario, le ofrecen invertir en dos proyectos diferentes, el primero se trata de una huerta de mangos y el segundo de una granja camaronera; ambos proyectos requieren la misma inversión de $ 2,800,000 pesos y tienen el mismo costo de capital o TMAR que es del 25%.</p>
                     <p>Los flujos netos de efectivo (FNE) para cada proyecto son:</p>
@@ -350,7 +353,8 @@ $(document).ready(function() {
             },
             {
                 "actividad": "u535",
-                "desarrollo": `<h1>Actividad</h1>
+                "desarrollo": `
+                <h2>Ejercicio</h2>
                 <div class="noPregunta">
                     <p>Imagina que vas a invertir $3,500 pesos y tienes la disyuntiva de elegir uno de los proyectos cuyos flujos netos de efectivo (FNE) se presentan a continuación:</p>
                     <table class="tabla" border="1">
