@@ -233,7 +233,7 @@ body {
     border-top: 2px solid black;
     border-left: 2px solid black;
     border-right: 2px solid black;
-    padding-left:60px;
+    padding-left: 60px;
     padding-right: 40px;
     padding-top: 60px;
     font-family: 'News Cycle', sans-serif;
@@ -245,6 +245,46 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    #header #escudos {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: 100%;
+    }
+    #header #logo_escom {
+        float: right;
+    }
+    #header #tituloHeader {
+        display: block;
+        width: 90%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #contenido {
+        position: relative;
+        display: block;
+        transform: translateX(0px);
+    }
+    #secciones {
+        display: none;
+    }
+    #temas {
+        display: none;
+    }
+    #texto {
+        display: block;
+        position: relative;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 190px;
+        width: 90%;
+    }
 }
 
 #informacion {
