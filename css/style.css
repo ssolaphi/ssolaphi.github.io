@@ -247,7 +247,7 @@ body {
     user-select: none;
 }
 
-@media only screen and (max-width: 1200px) {
+@media(max-width: 1200px) {
     #header #escudos {
         display: block;
         margin-left: auto;
