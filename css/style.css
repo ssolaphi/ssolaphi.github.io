@@ -287,6 +287,12 @@ body {
         transform: translateX(0px);
         height: fit-content;
     }
+    #contenido.noTabs {
+        position: relative;
+        display: block;
+        transform: translateX(0px);
+        height: fit-content;
+    }
     #secciones {
         display: none;
     }
