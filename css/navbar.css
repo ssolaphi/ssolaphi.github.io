@@ -121,13 +121,13 @@
   */
   
   .menu{
-    --uiMenuCircleSize: var(--menuCircleSize, 6.25rem);
+    --uiMenuCircleSize: var(--menuCircleSize, 10rem);
     --uiMenuCircleOffset: var(--menuCircleOffset, 1rem);
     --uiMenuCircleHeight: calc(var(--uiMenuCircleSize) / 2);  
     --uiMenuCircleBackgroundColor: var(--menuCircleBackgroundColor, currentColor);
   
-    --uiMenuHamburgerWidth: var(--menuHamburgerWidth, 1.75rem);
-    --uiMenuHamburgerHeight: var(--menuHamburgerHeight, 1.25rem);
+    --uiMenuHamburgerWidth: var(--menuHamburgerWidth, 3rem);
+    --uiMenuHamburgerHeight: var(--menuHamburgerHeight, 2.5rem);
     
     --rButtonPaddingTop: calc(var(--uiMenuCircleHeight) - var(--uiMenuHamburgerHeight) - var(--uiMenuCircleOffset));
     
