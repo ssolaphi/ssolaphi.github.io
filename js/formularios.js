@@ -513,7 +513,7 @@ $(document).ready(function() {
                         "reactivos": "2",
                         "respuestas": {
                             "1": "1.09",
-                            "2": "0.92"
+                            "2": "1.02"
                         }
                     },
                     {
